@@ -65,6 +65,7 @@ print("\nThe Question bank is",random_questions)
 print(len(random_questions))
 levels=['1000 ₹','2000 ₹','3000 ₹','5000 ₹','10,000 ₹','20,000 ₹','40,000 ₹','80,000 ₹','1,60,000 ₹','3,20,000 ₹','6,40,000 ₹','12,50,000 ₹','25,00,000 ₹','50,00,000 ₹','1,00,00,000 ₹','7,00,00,000 ₹']
 money=0
+playsound.playsound(intro)
 for i in range(16): # 0 1 2 3 4 5 6 ......15
         print(f"Question for {levels[i]}\n")
         time.sleep(1) #delay 1 sec
