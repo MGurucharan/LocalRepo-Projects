@@ -84,7 +84,7 @@ for i in range(16): # 0 1 2 3 4 5 6 ......15
 
           #Displaying the dynamic timer :
           print("\nTimer ticking :   ",end='')
-          for second in range(10,-1,-1):
+          for second in range(5,-1,-1):
                print(f"\b\b\b{second:3d}",end='')
                time.sleep(2)
           print("\nTime's up !!!")
